@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 82.0, 100.0, 1293.0, 712.0 ],
+		"rect" : [ 79.0, 100.0, 1181.0, 756.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1553.0, 401.0, 44.0, 22.0 ],
+					"patching_rect" : [ 1570.403826057910919, 154.019215912863729, 44.0, 22.0 ],
 					"text" : "get_all"
 				}
 
@@ -74,7 +74,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 40.566963160036778, 526.70374480013561, 75.0, 47.0 ],
+					"patching_rect" : [ 40.566963160036778, 526.70374480013561, 243.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 444.904748618602753, 253.0, 237.0, 47.0 ],
 					"prototypename" : "M4L.live.gain~.H.extended",
@@ -105,7 +105,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.566963160036778, 646.695565664752849, 65.0, 65.0 ],
+					"patching_rect" : [ 40.566963160036778, 646.695565664752849, 75.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 392.904748618602753, 253.0, 47.0, 47.0 ]
 				}
@@ -124,7 +124,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 40.566963160036778, 373.70374480013561, 65.0, 47.0 ],
+					"patching_rect" : [ 40.566963160036778, 373.70374480013561, 79.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 55.00000011920929, 253.0, 237.0, 47.0 ],
 					"prototypename" : "M4L.live.gain~.H.extended",
@@ -156,7 +156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 40.566963160036778, 246.663380894375905, 65.0, 65.0 ],
+					"patching_rect" : [ 40.566963160036778, 246.663380894375905, 79.0, 79.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.00000011920929, 253.0, 47.0, 47.0 ]
 				}
@@ -544,7 +544,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 710.98360904455194, 542.70374480013561, 107.0, 22.0 ],
+					"patching_rect" : [ 710.98360904455194, 542.70374480013561, 587.0, 22.0 ],
 					"text" : "djazz.view_control",
 					"varname" : "patcher"
 				}
@@ -557,7 +557,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 710.98360904455194, 386.20374480013561, 76.0, 22.0 ],
+					"patching_rect" : [ 710.98360904455194, 386.20374480013561, 466.0, 22.0 ],
 					"text" : "djazz.control",
 					"varname" : "djazz.parameters"
 				}
@@ -591,7 +591,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 830.048651897907575, 662.695565664752849, 148.342129588127136, 80.333332300186157 ],
+					"patching_rect" : [ 836.048651897907575, 649.695565664752849, 148.342129588127136, 80.333332300186157 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 690.571401536464691, 1.6666659116745, 146.666667222976685, 75.999998450279236 ],
 					"varname" : "udp_send",
@@ -748,7 +748,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
-					"midpoints" : [ 777.48360904455194, 427.20374480013561, 1331.123603225549232, 427.20374480013561, 1331.123603225549232, 24.334687025591847, 497.011393749713761, 24.334687025591847 ],
+					"midpoints" : [ 1167.48360904455194, 427.20374480013561, 1331.123603225549232, 427.20374480013561, 1331.123603225549232, 24.334687025591847, 497.011393749713761, 24.334687025591847 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -804,6 +804,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 1 ],
+					"midpoints" : [ 65.066963160036778, 444.20374480013561, 273.539178454875184, 444.20374480013561 ],
 					"source" : [ "obj-15", 1 ]
 				}
 
@@ -846,7 +847,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 2 ],
-					"midpoints" : [ 1288.794697988034386, 523.433562847255757, 808.48360904455194, 523.433562847255757 ],
 					"source" : [ "obj-35", 1 ]
 				}
 
@@ -931,8 +931,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 943.955824339390347, 363.0, 1220.0, 363.0, 1220.0, 505.0, 764.48360904455194, 505.0 ],
-					"order" : 1,
+					"midpoints" : [ 943.955824339390347, 363.0, 1220.0, 363.0, 1220.0, 505.0, 1004.48360904455194, 505.0 ],
+					"order" : 0,
 					"source" : [ "obj-65", 2 ]
 				}
 
@@ -941,7 +941,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-57", 4 ],
 					"midpoints" : [ 943.955824339390347, 363.0, 1220.0, 363.0, 1220.0, 449.0, 943.955824339390347, 449.0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-65", 2 ]
 				}
 
@@ -981,50 +981,50 @@
 			"obj-1::obj-134::obj-131" : [ "bar_number[1]", "bar_number", 0 ],
 			"obj-1::obj-134::obj-6" : [ "chapter_loop[1]", "chapter_loop", 0 ],
 			"obj-4::obj-2::obj-31" : [ "num_chapters[1]", "num_chapters", 0 ],
-			"obj-65::obj-45::obj-39::obj-1" : [ "midi_out_1_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-39::obj-2" : [ "midi_out_1_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-39::obj-1" : [ "midi_out_1_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-39::obj-2" : [ "midi_out_1_mute", "led", 0 ],
 			"obj-65::obj-45::obj-39::obj-25::obj-21" : [ "note", "note", 0 ],
-			"obj-65::obj-45::obj-40::obj-1" : [ "midi_out_2_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-40::obj-2" : [ "midi_out_2_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-40::obj-1" : [ "midi_out_2_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-40::obj-2" : [ "midi_out_2_mute", "led", 0 ],
 			"obj-65::obj-45::obj-40::obj-25::obj-21" : [ "note[1]", "note", 0 ],
-			"obj-65::obj-45::obj-41::obj-1" : [ "midi_out_3_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-41::obj-2" : [ "midi_out_3_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-41::obj-1" : [ "midi_out_3_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-41::obj-2" : [ "midi_out_3_mute", "led", 0 ],
 			"obj-65::obj-45::obj-41::obj-25::obj-21" : [ "note[2]", "note", 0 ],
-			"obj-65::obj-45::obj-42::obj-1" : [ "midi_out_4_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-42::obj-2" : [ "midi_out_4_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-42::obj-1" : [ "midi_out_4_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-42::obj-2" : [ "midi_out_4_mute", "led", 0 ],
 			"obj-65::obj-45::obj-42::obj-25::obj-21" : [ "note[3]", "note", 0 ],
-			"obj-65::obj-45::obj-43::obj-1" : [ "midi_out_5_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-43::obj-2" : [ "midi_out_5_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-43::obj-1" : [ "midi_out_5_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-43::obj-2" : [ "midi_out_5_mute", "led", 0 ],
 			"obj-65::obj-45::obj-43::obj-25::obj-21" : [ "note[4]", "note", 0 ],
-			"obj-65::obj-45::obj-44::obj-1" : [ "midi_out_6_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-44::obj-2" : [ "midi_out_6_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-44::obj-1" : [ "midi_out_6_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-44::obj-2" : [ "midi_out_6_mute", "led", 0 ],
 			"obj-65::obj-45::obj-44::obj-25::obj-21" : [ "note[5]", "note", 0 ],
-			"obj-65::obj-45::obj-45::obj-1" : [ "midi_out_7_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-45::obj-2" : [ "midi_out_7_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-45::obj-1" : [ "midi_out_7_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-45::obj-2" : [ "midi_out_7_mute", "led", 0 ],
 			"obj-65::obj-45::obj-45::obj-25::obj-21" : [ "note[6]", "note", 0 ],
-			"obj-65::obj-45::obj-46::obj-1" : [ "midi_out_8_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-46::obj-2" : [ "midi_out_8_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-46::obj-1" : [ "midi_out_8_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-46::obj-2" : [ "midi_out_8_mute", "led", 0 ],
 			"obj-65::obj-45::obj-46::obj-25::obj-21" : [ "note[7]", "note", 0 ],
-			"obj-65::obj-45::obj-47::obj-1" : [ "midi_out_9_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-47::obj-2" : [ "midi_out_9_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-47::obj-1" : [ "midi_out_9_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-47::obj-2" : [ "midi_out_9_mute", "led", 0 ],
 			"obj-65::obj-45::obj-47::obj-25::obj-21" : [ "note[8]", "note", 0 ],
-			"obj-65::obj-45::obj-48::obj-1" : [ "midi_out_10_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-48::obj-2" : [ "midi_out_10_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-48::obj-1" : [ "midi_out_10_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-48::obj-2" : [ "midi_out_10_mute", "led", 0 ],
 			"obj-65::obj-45::obj-48::obj-25::obj-21" : [ "note[9]", "note", 0 ],
-			"obj-65::obj-45::obj-49::obj-1" : [ "midi_out_11_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-49::obj-2" : [ "midi_out_11_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-49::obj-1" : [ "midi_out_11_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-49::obj-2" : [ "midi_out_11_mute", "led", 0 ],
 			"obj-65::obj-45::obj-49::obj-25::obj-21" : [ "note[10]", "note", 0 ],
-			"obj-65::obj-45::obj-50::obj-1" : [ "midi_out_12_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-50::obj-2" : [ "midi_out_12_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-50::obj-1" : [ "midi_out_12_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-50::obj-2" : [ "midi_out_12_mute", "led", 0 ],
 			"obj-65::obj-45::obj-50::obj-25::obj-21" : [ "note[11]", "note", 0 ],
-			"obj-65::obj-45::obj-51::obj-1" : [ "midi_out_13_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-51::obj-2" : [ "midi_out_13_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-51::obj-1" : [ "midi_out_13_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-51::obj-2" : [ "midi_out_13_mute", "led", 0 ],
 			"obj-65::obj-45::obj-51::obj-25::obj-21" : [ "note[12]", "note", 0 ],
-			"obj-65::obj-45::obj-52::obj-1" : [ "midi_out_14_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-52::obj-2" : [ "midi_out_14_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-52::obj-1" : [ "midi_out_14_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-52::obj-2" : [ "midi_out_14_mute", "led", 0 ],
 			"obj-65::obj-45::obj-52::obj-25::obj-21" : [ "note[13]", "note", 0 ],
-			"obj-65::obj-45::obj-53::obj-1" : [ "midi_out_15_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-45::obj-53::obj-2" : [ "midi_out_15_mute[1]", "led", 0 ],
+			"obj-65::obj-45::obj-53::obj-1" : [ "midi_out_15_solo", "led[1]", 0 ],
+			"obj-65::obj-45::obj-53::obj-2" : [ "midi_out_15_mute", "led", 0 ],
 			"obj-65::obj-45::obj-53::obj-25::obj-21" : [ "note[14]", "note", 0 ],
 			"obj-70" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
