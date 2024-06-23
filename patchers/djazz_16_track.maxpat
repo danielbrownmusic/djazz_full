@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 124.0, 127.0, 743.0, 335.0 ],
+		"rect" : [ 568.0, 123.0, 881.0, 384.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1458,7 +1458,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "djazz.repetition_factor_oracle_selector.maxpat",
+				"name" : "djazz.repetition_dict_selector.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/factor_oracle",
 				"patcherrelativepath" : "../../djazz_generic/patchers/factor_oracle",
 				"type" : "JSON",
