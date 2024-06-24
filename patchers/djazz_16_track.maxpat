@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 568.0, 123.0, 929.0, 512.0 ],
+		"rect" : [ 188.0, 122.0, 929.0, 512.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -552,7 +552,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 271.98360904455194, 538.70374480013561, 108.0, 22.0 ],
+					"patching_rect" : [ 271.98360904455194, 538.70374480013561, 107.0, 22.0 ],
 					"text" : "djazz.view_control",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.980392156862745 ],
 					"varname" : "patcher"
@@ -567,7 +567,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 247.983609044552054, 377.20374480013561, 78.0, 22.0 ],
+					"patching_rect" : [ 247.983609044552054, 377.20374480013561, 76.0, 22.0 ],
 					"text" : "djazz.control",
 					"textcolor" : [ 0.925490196078431, 0.925490196078431, 0.925490196078431, 0.980392156862745 ],
 					"varname" : "djazz.parameters"
@@ -767,7 +767,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
-					"midpoints" : [ 316.483609044552054, 418.20374480013561, 739.123603225549232, 418.20374480013561, 739.123603225549232, 20.334687025591847, 34.011393749713761, 20.334687025591847 ],
+					"midpoints" : [ 314.483609044552054, 418.20374480013561, 739.123603225549232, 418.20374480013561, 739.123603225549232, 20.334687025591847, 34.011393749713761, 20.334687025591847 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -858,7 +858,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 2 ],
-					"midpoints" : [ 583.06138128042312, 363.70374480013561, 316.483609044552054, 363.70374480013561 ],
+					"midpoints" : [ 583.06138128042312, 363.70374480013561, 314.483609044552054, 363.70374480013561 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -866,7 +866,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 2 ],
-					"midpoints" : [ 704.428039634228753, 518.95374480013561, 370.48360904455194, 518.95374480013561 ],
+					"midpoints" : [ 704.428039634228753, 518.95374480013561, 369.48360904455194, 518.95374480013561 ],
 					"source" : [ "obj-35", 1 ]
 				}
 
@@ -929,7 +929,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 480.955824339390404, 331.45374480013561, 286.983609044552054, 331.45374480013561 ],
+					"midpoints" : [ 480.955824339390404, 331.45374480013561, 285.983609044552054, 331.45374480013561 ],
 					"order" : 1,
 					"source" : [ "obj-65", 2 ]
 				}
@@ -953,7 +953,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 480.955824339390404, 359.0, 481.0, 359.0, 481.0, 492.0, 325.98360904455194, 492.0 ],
+					"midpoints" : [ 480.955824339390404, 359.0, 481.0, 359.0, 481.0, 492.0, 325.48360904455194, 492.0 ],
 					"order" : 0,
 					"source" : [ "obj-65", 2 ]
 				}
@@ -1004,12 +1004,12 @@
 			"obj-1::obj-134::obj-131" : [ "bar_number[1]", "bar_number", 0 ],
 			"obj-1::obj-134::obj-6" : [ "chapter_loop[1]", "chapter_loop", 0 ],
 			"obj-4::obj-2::obj-31" : [ "num_chapters[1]", "num_chapters", 0 ],
-			"obj-65::obj-29::obj-11::obj-1" : [ "audio_out_3_solo[1]", "led[1]", 0 ],
-			"obj-65::obj-29::obj-11::obj-2" : [ "audio_out_3_mute[1]", "led", 0 ],
+			"obj-65::obj-29::obj-11::obj-1" : [ "audio_out_2_solo", "led[1]", 0 ],
+			"obj-65::obj-29::obj-11::obj-2" : [ "audio_out_2_mute", "led", 0 ],
 			"obj-65::obj-29::obj-12::obj-1" : [ "audio_out_3_solo", "led[1]", 0 ],
 			"obj-65::obj-29::obj-12::obj-2" : [ "audio_out_3_mute", "led", 0 ],
-			"obj-65::obj-29::obj-9::obj-1" : [ "audio_out_2_solo", "led[1]", 0 ],
-			"obj-65::obj-29::obj-9::obj-2" : [ "audio_out_2_mute", "led", 0 ],
+			"obj-65::obj-29::obj-9::obj-1" : [ "audio_out_1_solo", "led[1]", 0 ],
+			"obj-65::obj-29::obj-9::obj-2" : [ "audio_out_1_mute", "led", 0 ],
 			"obj-65::obj-45::obj-39::obj-1" : [ "midi_out_1_solo", "led[1]", 0 ],
 			"obj-65::obj-45::obj-39::obj-2" : [ "midi_out_1_mute", "led", 0 ],
 			"obj-65::obj-45::obj-39::obj-25::obj-21" : [ "note", "note", 0 ],
@@ -1270,71 +1270,71 @@
 			}
 , 			{
 				"name" : "djazz.control.audio.out.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/control",
+				"patcherrelativepath" : "./control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.control.audio.track_loader.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/control",
+				"patcherrelativepath" : "./control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.control.audio.translate_track.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/control",
+				"patcherrelativepath" : "./control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/control",
+				"patcherrelativepath" : "./control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.control.midi.midi_out.score.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/control",
+				"patcherrelativepath" : "./control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.control.midi.midi_out.track.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/control",
+				"patcherrelativepath" : "./control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.control.midi.midi_out.translate_score.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/control",
+				"patcherrelativepath" : "./control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.control.midi.out.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/control",
+				"patcherrelativepath" : "./control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.control.midi.translate_track.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/control",
+				"patcherrelativepath" : "./control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.control.track.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/control",
+				"patcherrelativepath" : "./control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1354,8 +1354,8 @@
 			}
 , 			{
 				"name" : "djazz.grid_position_to_beat.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/grid",
-				"patcherrelativepath" : "../../djazz_generic/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/grid",
+				"patcherrelativepath" : "./grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1487,15 +1487,15 @@
 			}
 , 			{
 				"name" : "djazz.solo_bank.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers",
+				"patcherrelativepath" : "../../djazz_generic/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.song_data_loader.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers",
+				"patcherrelativepath" : "../../djazz_generic/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1543,8 +1543,8 @@
 			}
 , 			{
 				"name" : "djazz.view.beat_clock.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers",
+				"patcherrelativepath" : "../../djazz_generic/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1571,50 +1571,50 @@
 			}
 , 			{
 				"name" : "djazz.view.score.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers",
+				"patcherrelativepath" : "../../djazz_generic/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view.track.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers",
+				"patcherrelativepath" : "../../djazz_generic/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view_control.audio_out_track.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view_control",
+				"patcherrelativepath" : "./view_control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view_control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view_control",
+				"patcherrelativepath" : "./view_control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view_parameters.audio.data_loader.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view_control",
+				"patcherrelativepath" : "./view_control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view_parameters.audio_beat_generator.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view_control",
+				"patcherrelativepath" : "./view_control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view_parameters.midi_beat_generator.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view_control",
+				"patcherrelativepath" : "./view_control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1648,8 +1648,8 @@
 			}
 , 			{
 				"name" : "djazz_beat_to_beat_bar_chapter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/grid",
-				"patcherrelativepath" : "../../djazz_generic/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/grid",
+				"patcherrelativepath" : "./grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1669,15 +1669,15 @@
 			}
 , 			{
 				"name" : "djazz_get_bar_count.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/grid",
-				"patcherrelativepath" : "../../djazz_generic/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/grid",
+				"patcherrelativepath" : "./grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_get_chapter_count.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/grid",
-				"patcherrelativepath" : "../../djazz_generic/patchers/grid",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/grid",
+				"patcherrelativepath" : "./grid",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1886,8 +1886,8 @@
 			}
 , 			{
 				"name" : "du.get_at_subkey.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools/dict",
-				"patcherrelativepath" : "../../djazz_generic/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/tools/dict",
+				"patcherrelativepath" : "./tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
