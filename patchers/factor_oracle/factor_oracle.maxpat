@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 54.0, 127.0, 682.0, 218.0 ],
+		"rect" : [ 1004.0, 196.0, 634.0, 401.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -110,7 +110,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-16",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -231,7 +230,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-4",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -431,7 +429,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 206.0, 172.0, 172.0, 22.0 ],
+									"patching_rect" : [ 206.0, 172.0, 166.0, 49.0 ],
 									"text" : "pv #0_ORACLE_DICT_NAME"
 								}
 
@@ -3103,7 +3101,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-106",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -4122,7 +4119,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 211.533336162567139, 30.0, 30.0 ]
+					"patching_rect" : [ 25.0, 207.533336162567139, 30.0, 30.0 ]
 				}
 
 			}

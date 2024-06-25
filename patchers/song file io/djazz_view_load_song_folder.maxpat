@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 187.0, 406.0, 578.0, 622.0 ],
+		"rect" : [ 423.0, 549.0, 578.0, 622.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -52,6 +52,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 10.0,
 					"id" : "obj-8",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -60,7 +61,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 142.75, 34.0, 71.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 147.75, 0.0, 51.0, 20.0 ],
+					"presentation_rect" : [ 50.0, 0.0, 47.0, 20.0 ],
 					"text" : "browse",
 					"texton" : "browse"
 				}
@@ -68,6 +69,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 10.0,
 					"id" : "obj-7",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -76,7 +78,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 255.0, 34.0, 71.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.5, 0.0, 51.0, 20.0 ],
+					"presentation_rect" : [ 104.0, 0.25, 47.0, 20.0 ],
 					"text" : "clear",
 					"texton" : "clear"
 				}
@@ -108,7 +110,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bordercolor" : [ 1.0, 0.576470588235294, 0.0, 1.0 ],
+					"bordercolor" : [ 1.0, 0.576470588235294, 0.0, 0.0 ],
 					"id" : "obj-10",
 					"maxclass" : "dropfile",
 					"numinlets" : 1,
@@ -116,22 +118,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 27.25, 74.0, 107.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 140.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 1.0 ],
-					"id" : "obj-25",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 36.75, 78.5, 88.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 140.0, 20.0 ],
-					"text" : "drop song folder here or"
+					"presentation_rect" : [ -2.5, 8.5, 47.5, 23.25 ]
 				}
 
 			}
@@ -144,6 +131,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 255.25, 283.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"background" : 1,
+					"id" : "obj-1",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 707.0, 481.0, 35.0, 34.0 ],
+					"pic" : "song_folder.png",
+					"presentation" : 1,
+					"presentation_rect" : [ -2.5, -4.75, 47.5, 28.0 ]
 				}
 
 			}
@@ -194,7 +197,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "song_folder.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
