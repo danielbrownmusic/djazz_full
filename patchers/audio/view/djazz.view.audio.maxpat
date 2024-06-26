@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 72.0, 269.0, 1394.0, 343.0 ],
+		"rect" : [ 135.0, 715.0, 1394.0, 343.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -127,7 +127,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 970.166680634021759, 135.979662209281912, 407.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 851.166680634021759, 121.979662209281912, 407.0, 23.0 ],
+					"presentation_rect" : [ 855.166680634021759, 121.979662209281912, 407.0, 23.0 ],
 					"varname" : "audio_buffer_view_3",
 					"viewvisibility" : 1
 				}
@@ -150,7 +150,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 970.166680634021759, 110.979662209281912, 407.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 851.166680634021759, 96.979662209281912, 407.0, 23.0 ],
+					"presentation_rect" : [ 855.166680634021759, 96.979662209281912, 407.0, 23.0 ],
 					"varname" : "audio_buffer_view_2",
 					"viewvisibility" : 1
 				}
@@ -173,7 +173,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 970.166680634021759, 85.979662209281912, 407.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 851.166680634021759, 71.979662209281912, 407.0, 23.0 ],
+					"presentation_rect" : [ 855.166680634021759, 71.979662209281912, 407.0, 23.0 ],
 					"varname" : "audio_buffer_view_1",
 					"viewvisibility" : 1
 				}
@@ -373,7 +373,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -389,7 +389,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"order" : 0,
+					"order" : 2,
 					"source" : [ "obj-23", 0 ]
 				}
 

@@ -1319,6 +1319,7 @@
 					"color" : [ 1.0, 0.576470588235294, 0.0, 1.0 ],
 					"columns" : 16,
 					"id" : "obj-46",
+					"ignoreclick" : 1,
 					"maxclass" : "matrixctrl",
 					"numinlets" : 1,
 					"numoutlets" : 2,
