@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 563.0, 344.0, 822.0, 751.0 ],
+		"rect" : [ 194.0, 110.0, 992.0, 867.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -209,13 +209,25 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 721.5, 531.599999999999909, 30.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 76.5, 27.0, 25.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_linknames" : 1,
+							"parameter_longname" : "grid_loop_chapter",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "grid_loop_chapter",
+							"parameter_type" : 2
+						}
+
+					}
+,
 					"text" : "q",
 					"texton" : "q",
-					"varname" : "textbutton"
+					"varname" : "grid_loop_chapter"
 				}
 
 			}
@@ -892,14 +904,26 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 84.5, 523.100000000000023, 212.0, 81.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 61.0, 34.5, 434.0, 67.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32" ],
+							"parameter_linknames" : 1,
+							"parameter_longname" : "grid_bar",
+							"parameter_mmax" : 31,
+							"parameter_shortname" : "grid_bar",
+							"parameter_type" : 2
+						}
+
+					}
+,
 					"tabcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32" ],
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
-					"varname" : "tab[1]"
+					"varname" : "grid_bar"
 				}
 
 			}
@@ -910,12 +934,25 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 404.0, 523.100000000000023, 273.0, 38.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 61.0, -1.0, 195.0, 23.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7" ],
+							"parameter_initial" : [ 0.0 ],
+							"parameter_linknames" : 1,
+							"parameter_longname" : "grid_chapter",
+							"parameter_mmax" : 6,
+							"parameter_shortname" : "grid_chapter",
+							"parameter_type" : 2
+						}
+
+					}
+,
 					"tabs" : [ "1", "2", "3", "4", "5", "6", "7" ],
-					"varname" : "tab"
+					"varname" : "grid_chapter"
 				}
 
 			}
@@ -1016,9 +1053,25 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-14" : [ "grid_bar", "grid_bar", 0 ],
+			"obj-31" : [ "grid_loop_chapter", "grid_loop_chapter", 0 ],
+			"obj-6" : [ "grid_chapter", "grid_chapter", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "djazz_range.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools/iterators",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/tools/iterators",
 				"patcherrelativepath" : "../tools/iterators",
 				"type" : "JSON",
 				"implicit" : 1

@@ -1,4 +1,4 @@
-var GRID_PARAMS_    = ['bar', 'chapter'];
+var GRID_PARAMS_    = ['grid_bar', 'grid_chapter'];
 
 var d_ = undefined;
 
