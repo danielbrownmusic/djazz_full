@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 120.0, 140.0, 1302.0, 820.0 ],
+		"rect" : [ 145.0, 151.0, 872.0, 288.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -445,7 +445,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 516.719716691971371, 559.695565664752849, 65.0, 22.0 ],
+					"patching_rect" : [ 516.719716691971371, 579.695565664752849, 65.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1381,6 +1381,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "djazz.midi.load_recorded_data.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/midi/midi_out",
+				"patcherrelativepath" : "./midi/midi_out",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "djazz.midi.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/midi",
 				"patcherrelativepath" : "./midi",
@@ -1536,8 +1543,8 @@
 			}
 , 			{
 				"name" : "djazz.view.repetition_selector.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/repetition_selector",
+				"patcherrelativepath" : "./repetition_selector",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1552,6 +1559,13 @@
 				"name" : "djazz.view.track.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view",
 				"patcherrelativepath" : "./view",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.view_control.audio.data_loader.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view_control",
+				"patcherrelativepath" : "./view_control",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1577,7 +1591,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "djazz.view_parameters.audio.data_loader.maxpat",
+				"name" : "djazz.view_control.midi.data_loader.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view_control",
 				"patcherrelativepath" : "./view_control",
 				"type" : "JSON",
