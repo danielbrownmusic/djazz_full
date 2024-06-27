@@ -28,10 +28,20 @@
 	"parameters" : 	{
 		"score_1_speed_1/2" : "midi 64 yellow",
 		"score_1_speed_3/2" : "midi 80 yellow",
-		"score_2_speed_1/2" : "midi 64 yellow",
+		"score_2_speed_1/2" : "midi 97 green",
 		"score_2_speed_3/2" : "midi 80 yellow",
 		"score_2_speed_2" : "midi 96 yellow",
-		"score_2_speed_4" : "midi 112 yellow"
+		"score_2_speed_4" : "midi 112 yellow",
+		"audio_1_repetition_unmute" : "midi 65 green",
+		"audio_2_repetition_unmute" : "midi 66 green",
+		"audio_3_repetition_unmute" : "midi 67 green",
+		"score_1_octave_down" : "midi 81 green",
+		"score_1_octave_up" : "midi 82 green",
+		"score_2_octave_down" : "midi 81 green",
+		"score_2_octave_up" : "midi 82 green",
+		"score_2_reset_octave" : "midi 83 orange",
+		"score_2_loop_1" : "midi 113 green",
+		"midi_out_7_unmute" : "midi 117 orange"
 	}
 
 }

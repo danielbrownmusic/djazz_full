@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 127.0, 390.0, 1394.0, 343.0 ],
+		"rect" : [ 127.0, 390.0, 587.0, 570.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -181,6 +181,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "audio_3" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -197,13 +198,14 @@
 					"patching_rect" : [ 149.166680634021759, 135.979662209281912, 816.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 33.166680634021759, 121.979662209281912, 816.0, 23.0 ],
-					"varname" : "audio_repetition_selector_3",
+					"varname" : "repetition_selector_3",
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "audio_2" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -220,13 +222,14 @@
 					"patching_rect" : [ 149.166680634021759, 110.979662209281912, 816.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 33.166680634021759, 96.979662209281912, 816.0, 23.0 ],
-					"varname" : "audio_repetition_selector_2",
+					"varname" : "repetition_selector_2",
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "audio_1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -243,7 +246,7 @@
 					"patching_rect" : [ 149.166680634021759, 85.979662209281912, 816.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 33.166680634021759, 71.979662209281912, 816.0, 23.0 ],
-					"varname" : "audio_repetition_selector_1",
+					"varname" : "repetition_selector_1",
 					"viewvisibility" : 1
 				}
 
@@ -373,7 +376,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"order" : 0,
+					"order" : 2,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -381,7 +384,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -389,7 +392,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-23", 0 ]
 				}
 

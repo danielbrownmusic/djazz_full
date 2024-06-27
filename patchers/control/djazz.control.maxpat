@@ -3095,7 +3095,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 543.0, 343.0, 177.0, 22.0 ],
 									"text" : "djazz.control.repetition_selector",
-									"varname" : "audio_repetition_selector_3"
+									"varname" : "repetition_selector_3"
 								}
 
 							}
@@ -3108,7 +3108,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 543.0, 242.0, 177.0, 22.0 ],
 									"text" : "djazz.control.repetition_selector",
-									"varname" : "audio_repetition_selector_2"
+									"varname" : "repetition_selector_2"
 								}
 
 							}
@@ -3134,7 +3134,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 543.0, 150.0, 177.0, 22.0 ],
 									"text" : "djazz.control.repetition_selector",
-									"varname" : "audio_repetition_selector_1"
+									"varname" : "repetition_selector_1"
 								}
 
 							}
@@ -4179,7 +4179,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1021.0, 125.0, 187.0, 22.0 ],
 									"text" : "djazz.control.repetition_selector 2",
-									"varname" : "midi_repetition_selector_2"
+									"varname" : "repetition_selector_2"
 								}
 
 							}
@@ -4192,7 +4192,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 757.0, 125.0, 187.0, 22.0 ],
 									"text" : "djazz.control.repetition_selector 1",
-									"varname" : "midi_repetition_selector_1"
+									"varname" : "repetition_selector_1"
 								}
 
 							}

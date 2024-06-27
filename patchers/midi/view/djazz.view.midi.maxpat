@@ -75,6 +75,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "midi_2" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -91,13 +92,14 @@
 					"patching_rect" : [ 166.000009000000006, 88.714352720733643, 816.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.000000178512664, 90.714352720733643, 816.0, 22.0 ],
-					"varname" : "midi_repetition_selector_2",
+					"varname" : "repetition_selector_2",
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "midi_1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -114,7 +116,7 @@
 					"patching_rect" : [ 166.000009000000006, 64.714352720733643, 816.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.000000178512664, 66.714352720733643, 816.0, 22.0 ],
-					"varname" : "midi_repetition_selector_1",
+					"varname" : "repetition_selector_1",
 					"viewvisibility" : 1
 				}
 
