@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 101.0, 201.0, 1593.0, 882.0 ],
+		"rect" : [ 48.0, 143.0, 1132.0, 882.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -91,7 +91,7 @@
 					"patching_rect" : [ 166.000009000000006, 88.714352720733643, 816.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.000000178512664, 90.714352720733643, 816.0, 22.0 ],
-					"varname" : "repetition_selector_2",
+					"varname" : "midi_repetition_selector_2",
 					"viewvisibility" : 1
 				}
 
@@ -114,7 +114,7 @@
 					"patching_rect" : [ 166.000009000000006, 64.714352720733643, 816.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.000000178512664, 66.714352720733643, 816.0, 22.0 ],
-					"varname" : "repetition_selector_1",
+					"varname" : "midi_repetition_selector_1",
 					"viewvisibility" : 1
 				}
 

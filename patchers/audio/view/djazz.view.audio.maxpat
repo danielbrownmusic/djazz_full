@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 135.0, 715.0, 1394.0, 343.0 ],
+		"rect" : [ 127.0, 390.0, 1394.0, 343.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -197,7 +197,7 @@
 					"patching_rect" : [ 149.166680634021759, 135.979662209281912, 816.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 33.166680634021759, 121.979662209281912, 816.0, 23.0 ],
-					"varname" : "repetition_selector_3",
+					"varname" : "audio_repetition_selector_3",
 					"viewvisibility" : 1
 				}
 
@@ -220,7 +220,7 @@
 					"patching_rect" : [ 149.166680634021759, 110.979662209281912, 816.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 33.166680634021759, 96.979662209281912, 816.0, 23.0 ],
-					"varname" : "repetition_selector_2",
+					"varname" : "audio_repetition_selector_2",
 					"viewvisibility" : 1
 				}
 
@@ -243,7 +243,7 @@
 					"patching_rect" : [ 149.166680634021759, 85.979662209281912, 816.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 33.166680634021759, 71.979662209281912, 816.0, 23.0 ],
-					"varname" : "repetition_selector_1",
+					"varname" : "audio_repetition_selector_1",
 					"viewvisibility" : 1
 				}
 

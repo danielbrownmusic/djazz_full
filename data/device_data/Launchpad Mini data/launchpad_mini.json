@@ -25,9 +25,9 @@
         }
         ,
         "yellow" : {
-            "dim"       : 50
+            "dim"       : 41
             , 
-            "bright"    : 50
+            "bright"    : 51
         }
         ,
         "green" : {
@@ -35,6 +35,13 @@
             ,
             "bright"    : 48
         }
+        ,
+        "brown" : {
+            "dim"       : 38
+            ,
+            "bright"    : 35
+        }
+
     }
     ,
     "behaviors" : {

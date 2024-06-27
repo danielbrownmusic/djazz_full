@@ -105,8 +105,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 329.0, 198.0, 311.0, 22.0 ],
-					"text" : "combine audio::repetition_selector_ #1 ::view::repetitions"
+					"patching_rect" : [ 329.0, 198.0, 347.0, 22.0 ],
+					"text" : "combine audio::audio_repetition_selector_ #1 ::view::repetitions"
 				}
 
 			}
@@ -141,8 +141,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 33.0, 157.0, 274.0, 22.0 ],
-					"text" : "combine audio::repetition_selector_ #1 ::repetition"
+					"patching_rect" : [ 33.0, 157.0, 310.0, 22.0 ],
+					"text" : "combine audio::audio_repetition_selector_ #1 ::repetition"
 				}
 
 			}

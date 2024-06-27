@@ -1098,19 +1098,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"parameter_enable" : 1,
+									"parameter_enable" : 0,
 									"patching_rect" : [ 215.5, 153.0, 24.0, 24.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_longname" : "chapter_loop[1]",
-											"parameter_mmax" : 1,
-											"parameter_shortname" : "chapter_loop",
-											"parameter_type" : 2
-										}
-
-									}
-,
 									"varname" : "toggle"
 								}
 
@@ -1124,18 +1113,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"parameter_enable" : 1,
+									"parameter_enable" : 0,
 									"patching_rect" : [ 130.5, 155.0, 50.0, 22.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_invisible" : 1,
-											"parameter_longname" : "chapter_number[1]",
-											"parameter_shortname" : "chapter_number",
-											"parameter_type" : 1
-										}
-
-									}
-,
 									"varname" : "number[1]"
 								}
 
@@ -1149,18 +1128,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"parameter_enable" : 1,
+									"parameter_enable" : 0,
 									"patching_rect" : [ 66.5, 155.0, 50.0, 22.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_invisible" : 1,
-											"parameter_longname" : "bar_number[1]",
-											"parameter_shortname" : "bar_number",
-											"parameter_type" : 1
-										}
-
-									}
-,
 									"varname" : "number"
 								}
 
@@ -1194,7 +1163,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 113.0, 57.0, 54.0, 35.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1214,7 +1183,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 57.0, 57.0, 38.0, 35.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 8 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1350,7 +1319,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 242.0, 143.0, 1345.0, 704.0 ],
+						"rect" : [ 147.0, 100.0, 856.0, 983.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2738,6 +2707,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
+									"parameter_mappable" : 0,
 									"patching_rect" : [ 332.5, 89.0, 50.0, 22.0 ],
 									"varname" : "number[2]"
 								}
@@ -2771,6 +2741,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
+									"parameter_mappable" : 0,
 									"patching_rect" : [ 592.5, 93.0, 24.0, 24.0 ],
 									"varname" : "toggle"
 								}
@@ -2804,6 +2775,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
+									"parameter_mappable" : 0,
 									"patching_rect" : [ 246.0, 89.0, 50.0, 22.0 ],
 									"varname" : "number[1]"
 								}
@@ -3114,7 +3086,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -3124,7 +3095,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 543.0, 343.0, 177.0, 22.0 ],
 									"text" : "djazz.control.repetition_selector",
-									"varname" : "repetition_selector_3"
+									"varname" : "audio_repetition_selector_3"
 								}
 
 							}
@@ -3137,7 +3108,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 543.0, 242.0, 177.0, 22.0 ],
 									"text" : "djazz.control.repetition_selector",
-									"varname" : "repetition_selector_2"
+									"varname" : "audio_repetition_selector_2"
 								}
 
 							}
@@ -3163,7 +3134,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 543.0, 150.0, 177.0, 22.0 ],
 									"text" : "djazz.control.repetition_selector",
-									"varname" : "repetition_selector_1"
+									"varname" : "audio_repetition_selector_1"
 								}
 
 							}
@@ -4118,7 +4089,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 265.0, 163.0, 119.0, 49.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1172, 100, 1635, 1009 ],
+						"client_rect" : [ 1231, 100, 1694, 1009 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -4208,7 +4179,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1021.0, 125.0, 187.0, 22.0 ],
 									"text" : "djazz.control.repetition_selector 2",
-									"varname" : "repetition_selector_2"
+									"varname" : "midi_repetition_selector_2"
 								}
 
 							}
@@ -4221,7 +4192,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 757.0, 125.0, 187.0, 22.0 ],
 									"text" : "djazz.control.repetition_selector 1",
-									"varname" : "repetition_selector_1"
+									"varname" : "midi_repetition_selector_1"
 								}
 
 							}

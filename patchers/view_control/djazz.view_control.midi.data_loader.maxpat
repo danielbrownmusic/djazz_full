@@ -69,8 +69,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 329.0, 198.0, 303.0, 22.0 ],
-					"text" : "combine midi::repetition_selector_ #1 ::view::repetitions"
+					"patching_rect" : [ 329.0, 198.0, 332.0, 22.0 ],
+					"text" : "combine midi::midi_repetition_selector_ #1 ::view::repetitions"
 				}
 
 			}
@@ -105,8 +105,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 33.0, 157.0, 267.0, 22.0 ],
-					"text" : "combine midi::repetition_selector_ #1 ::repetition"
+					"patching_rect" : [ 33.0, 157.0, 295.0, 22.0 ],
+					"text" : "combine midi::midi_repetition_selector_ #1 ::repetition"
 				}
 
 			}

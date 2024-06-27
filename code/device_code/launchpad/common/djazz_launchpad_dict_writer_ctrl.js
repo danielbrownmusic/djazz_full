@@ -1,4 +1,4 @@
-var GRID_PARAMS_    = ['grid_bar', 'grid_chapter'];
+var GRID_PARAMS_    = ['bar', 'chapter'];
 
 var d_ = undefined;
 
@@ -74,7 +74,7 @@ add_param_.local = 1;
 
 function make_grid_param_name_(param)
 {
-    return [param, "_number"].join("");
+    return ["grid_", param,].join("");
 }
 make_grid_param_name_.local = 1;
 

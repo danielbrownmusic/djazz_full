@@ -114,13 +114,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 27.0, 203.369426247114234, 155.0, 49.0 ],
-					"text" : "combine midi::midi_out::data::scores::score_file_ #1 ::file_path"
+					"patching_rect" : [ 27.0, 203.369426247114234, 386.0, 22.0 ],
+					"text" : "combine midi::midi_out::data_loaders::scores::score_file_ #1 ::file_path"
 				}
 
 			}
