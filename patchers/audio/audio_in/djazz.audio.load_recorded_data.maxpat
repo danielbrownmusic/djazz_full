@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1136.0, 117.0, 982.0, 788.0 ],
+		"rect" : [ 435.0, 220.0, 982.0, 788.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 13.5, 94.0, 163.5, 62.0 ],
+					"patching_rect" : [ 13.5, 94.0, 165.0, 62.0 ],
 					"text" : "route factor_oracle_list_dict_name beat_list_dict_name audio_buffer_name"
 				}
 
@@ -320,8 +320,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 398.5, 279.333331999999928, 61.0, 35.0 ],
-					"restore" : [ -1 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ -1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -471,7 +471,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 71.166666666666657, 180.916665999999964, 204.5, 180.916665999999964 ],
+					"midpoints" : [ 71.666666666666657, 180.916665999999964, 204.5, 180.916665999999964 ],
 					"order" : 1,
 					"source" : [ "obj-15", 1 ]
 				}
@@ -480,7 +480,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 71.166666666666657, 180.5, 489.0, 180.5 ],
+					"midpoints" : [ 71.666666666666657, 180.5, 489.0, 180.5 ],
 					"order" : 0,
 					"source" : [ "obj-15", 1 ]
 				}
@@ -489,7 +489,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
-					"midpoints" : [ 119.333333333333329, 168.5, 687.0, 168.5 ],
+					"midpoints" : [ 120.333333333333329, 168.5, 687.0, 168.5 ],
 					"order" : 1,
 					"source" : [ "obj-15", 2 ]
 				}
@@ -505,7 +505,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 119.333333333333329, 168.5, 893.0, 168.5 ],
+					"midpoints" : [ 120.333333333333329, 168.5, 893.0, 168.5 ],
 					"order" : 0,
 					"source" : [ "obj-15", 2 ]
 				}

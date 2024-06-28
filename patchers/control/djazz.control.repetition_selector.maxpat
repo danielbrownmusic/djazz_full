@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -84,7 +84,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 18.0, 24.0, 68.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
+						"initial" : [ -1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
