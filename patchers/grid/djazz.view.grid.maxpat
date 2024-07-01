@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -62,7 +62,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -223,7 +223,8 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 706.5, 414.599999999999909, 30.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 76.5, 27.0, 25.0 ],
+					"presentation_rect" : [ 29.0, 66.5, 27.0, 25.0 ],
+					"rounded" : 8.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -274,7 +275,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -549,7 +550,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -836,14 +837,15 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 10.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 355.0, 32.0, 20.0 ],
+					"patching_rect" : [ 124.0, 355.0, 29.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 34.5, 27.0, 20.0 ],
-					"text" : "bar",
+					"presentation_rect" : [ 27.0, 26.5, 29.0, 18.0 ],
+					"text" : "BAR",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -851,14 +853,15 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 10.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 486.5, 370.0, 55.0, 20.0 ],
+					"patching_rect" : [ 486.5, 370.0, 56.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, -1.0, 51.0, 20.0 ],
-					"text" : "chapter",
+					"presentation_rect" : [ 0.0, 1.5, 56.0, 18.0 ],
+					"text" : "CHAPTER",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -890,7 +893,7 @@
 			}
 , 			{
 				"box" : 				{
-					"htabcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"htabcolor" : [ 0.082247, 0.501861, 0.528635, 1.0 ],
 					"id" : "obj-14",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -899,7 +902,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 69.5, 406.100000000000023, 212.0, 81.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 34.5, 434.0, 67.0 ],
+					"presentation_rect" : [ 61.0, 26.5, 434.0, 67.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32" ],
@@ -913,7 +916,7 @@
 					}
 ,
 					"tabcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
-					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32" ],
+					"tabs" : [ "1" ],
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
 					"varname" : "grid_bar"
 				}
@@ -921,6 +924,7 @@
 			}
 , 			{
 				"box" : 				{
+					"htabcolor" : [ 0.082247, 0.501861, 0.528635, 1.0 ],
 					"id" : "obj-6",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -1052,6 +1056,31 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-14" : [ "grid_bar", "grid_bar", 0 ],
+			"obj-31" : [ "grid_loop_chapter", "grid_loop_chapter", 0 ],
+			"obj-6" : [ "grid_chapter", "grid_chapter", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "djazz_range.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/tools/iterators",
+				"patcherrelativepath" : "../tools/iterators",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.541176470588235, 0.552941176470588, 0.564705882352941, 1.0 ],
 		"editing_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 	}

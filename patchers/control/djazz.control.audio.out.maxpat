@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -115,8 +115,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 106.5, 14.0, 40.0, 35.0 ],
-					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -135,8 +135,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 20.5, 14.0, 52.0, 35.0 ],
-					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 80 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}

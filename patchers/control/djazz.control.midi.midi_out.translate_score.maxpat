@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -114,11 +114,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 27.0, 203.369426247114234, 386.0, 22.0 ],
+					"patching_rect" : [ 27.0, 203.369426247114234, 162.0, 62.0 ],
 					"text" : "combine midi::midi_out::data_loaders::scores::score_file_ #1 ::file_path"
 				}
 
