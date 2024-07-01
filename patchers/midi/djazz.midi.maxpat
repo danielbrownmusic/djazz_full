@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 750.0, 722.0, 367.0, 361.0 ],
+		"rect" : [ 366.0, 722.0, 367.0, 361.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -69,7 +69,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 341.0, 550.0, 1000.0, 352.0 ],
+						"rect" : [ 515.0, 150.0, 1000.0, 352.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -114,7 +114,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 1167.0, 418.0, 606.0, 803.0 ],
+										"rect" : [ 557.0, 166.0, 606.0, 803.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -183,8 +183,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 326.0, 73.5, 226.0, 22.0 ],
-													"text" : "pv AUDIO_IN_BEAT_LIST_DICT_NAME"
+													"patching_rect" : [ 326.0, 73.5, 214.0, 22.0 ],
+													"text" : "pv MIDI_IN_BEAT_LIST_DICT_NAME"
 												}
 
 											}
@@ -229,8 +229,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 17.0, 68.5, 300.0, 22.0 ],
-													"text" : "pv AUDIO_IN_FACTOR_ORACLE_LIST_DICT_NAME"
+													"patching_rect" : [ 17.0, 68.5, 288.0, 22.0 ],
+													"text" : "pv MIDI_IN_FACTOR_ORACLE_LIST_DICT_NAME"
 												}
 
 											}
@@ -4518,7 +4518,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 31.75, 254.0, 30.0, 30.0 ]
+					"patching_rect" : [ 31.75, 250.0, 30.0, 30.0 ]
 				}
 
 			}
