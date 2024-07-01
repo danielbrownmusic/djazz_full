@@ -807,34 +807,21 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-16",
-									"maxclass" : "number",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 266.200014889240265, 86.600000858306885, 50.0, 22.0 ],
-									"varname" : "number[3]"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-12",
 									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 222.700014889240265, 19.0, 106.0, 35.0 ],
+									"patching_rect" : [ 236.700014889240265, 14.0, 145.0, 35.0 ],
 									"saved_object_attributes" : 									{
 										"initial" : [ 0 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "pattr buffer_size_in_ms",
-									"varname" : "buffer_size_in_ms"
+									"text" : "pattr audio_buffer_size_in_ms",
+									"varname" : "audio_buffer_size_in_ms"
 								}
 
 							}
@@ -846,28 +833,15 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 126.99998694341275, 19.0, 76.0, 35.0 ],
+									"patching_rect" : [ 105.99998694341275, 14.0, 115.0, 35.0 ],
 									"saved_object_attributes" : 									{
 										"initial" : [ "NONE" ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "pattr buffer_name",
-									"varname" : "buffer_name"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-9",
-									"maxclass" : "number",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 49.400010943412781, 76.200000703334808, 50.0, 22.0 ],
-									"varname" : "number[1]"
+									"text" : "pattr audio_buffer_name",
+									"varname" : "audio_buffer_name"
 								}
 
 							}
@@ -879,7 +853,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 25.900010943412781, 19.0, 66.0, 35.0 ],
+									"patching_rect" : [ 28.400010943412781, 14.0, 66.0, 35.0 ],
 									"saved_object_attributes" : 									{
 										"initial" : [ 0 ],
 										"parameter_enable" : 0,
@@ -899,7 +873,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 49.400010943412781, 141.600010128414169, 30.0, 30.0 ]
+									"patching_rect" : [ 28.400010943412781, 87.600010128414169, 30.0, 30.0 ]
 								}
 
 							}
@@ -911,7 +885,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 126.99998694341275, 141.600010128414169, 30.0, 30.0 ]
+									"patching_rect" : [ 105.99998694341275, 87.600010128414169, 30.0, 30.0 ]
 								}
 
 							}
@@ -923,7 +897,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 266.199998943412766, 141.600010128414169, 30.0, 30.0 ]
+									"patching_rect" : [ 236.700014889240265, 83.600010128414169, 30.0, 30.0 ]
 								}
 
 							}
@@ -937,29 +911,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
-									"source" : [ "obj-12", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
-									"source" : [ "obj-16", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-7", 1 ]
+									"source" : [ "obj-12", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
-									"source" : [ "obj-9", 0 ]
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -1065,7 +1025,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

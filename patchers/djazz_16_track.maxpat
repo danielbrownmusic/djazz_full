@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 166.0, 379.0, 1710.0, 843.0 ],
+		"rect" : [ 65.0, 299.0, 1710.0, 792.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -92,7 +92,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -732,7 +732,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.595981121063232, 0.71068662405014, 0.792471170425415, 1.0 ],
+					"color" : [ 0.688713729381561, 0.702805042266846, 0.702243566513062, 1.0 ],
 					"destination" : [ "obj-1", 1 ],
 					"midpoints" : [ 993.398270010948181, 372.583655438056269, 675.428039634228753, 372.583655438056269 ],
 					"order" : 2,
@@ -742,7 +742,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.595981121063232, 0.71068662405014, 0.792471170425415, 1.0 ],
+					"color" : [ 0.688713729381561, 0.702805042266846, 0.702243566513062, 1.0 ],
 					"destination" : [ "obj-4", 2 ],
 					"midpoints" : [ 993.398270010948181, 465.333655438056269, 697.959055497250461, 465.333655438056269 ],
 					"order" : 1,
@@ -752,7 +752,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.595981121063232, 0.71068662405014, 0.792471170425415, 1.0 ],
+					"color" : [ 0.688713729381561, 0.702805042266846, 0.702243566513062, 1.0 ],
 					"destination" : [ "obj-57", 5 ],
 					"midpoints" : [ 993.398270010948181, 427.333655438056269, 741.790536516905945, 427.333655438056269 ],
 					"order" : 0,
@@ -762,7 +762,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.595981121063232, 0.71068662405014, 0.792471170425415, 1.0 ],
+					"color" : [ 0.688713729381561, 0.702805042266846, 0.702243566513062, 1.0 ],
 					"destination" : [ "obj-65", 4 ],
 					"midpoints" : [ 993.398270010948181, 98.963566075976928, 886.094403263927006, 98.963566075976928, 886.094403263927006, 46.334687025591847, 741.790536516905945, 46.334687025591847 ],
 					"order" : 3,
@@ -2088,20 +2088,6 @@
 				"name" : "djazz.view_parameters.midi_beat_generator.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view_control",
 				"patcherrelativepath" : "./view_control",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_PARAMS_VIEW_master.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/params",
-				"patcherrelativepath" : "./params",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_PARAMS_VIEW_master_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/params",
-				"patcherrelativepath" : "./params",
 				"type" : "JSON",
 				"implicit" : 1
 			}
