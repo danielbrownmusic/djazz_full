@@ -57,7 +57,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.962356489120793, 647.926875054836273, 97.0, 22.0 ]
+					"patching_rect" : [ 658.962356489120793, 647.926875054836273, 97.0, 22.0 ],
+					"text" : "3 4 7 16"
 				}
 
 			}
@@ -138,7 +139,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 416.0, 332.0, 95.0, 22.0 ]
+									"patching_rect" : [ 416.0, 332.0, 95.0, 22.0 ],
+									"text" : "3 4 7 16"
 								}
 
 							}
@@ -6064,7 +6066,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -6105,6 +6107,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 371.0, 297.0, 29.5, 22.0 ],
+									"text" : "- 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-24",
 									"maxclass" : "newobj",
@@ -6287,7 +6301,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 311.5, 370.0, 30.0, 30.0 ]
+									"patching_rect" : [ 378.5, 370.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -6306,16 +6320,23 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-24", 0 ],
-									"order" : 1,
+									"destination" : [ "obj-93", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"order" : 0,
 									"source" : [ "obj-16", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-93", 0 ],
-									"order" : 0,
+									"destination" : [ "obj-24", 0 ],
+									"order" : 1,
 									"source" : [ "obj-16", 0 ]
 								}
 
