@@ -3541,7 +3541,6 @@
 , 																			{
 																				"box" : 																				{
 																					"id" : "obj-15",
-																					"int" : 1,
 																					"maxclass" : "gswitch2",
 																					"numinlets" : 2,
 																					"numoutlets" : 2,
@@ -6305,13 +6304,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 294.612812876701355, 19.5, 237.0, 35.0 ],
-					"text" : "pv #0_LAUNCHPAD_PORT \"Launchpad Pro MK3 LPProMK3 DAW\""
+					"patching_rect" : [ 294.612812876701355, 19.5, 382.0, 22.0 ],
+					"text" : "pv #0_LAUNCHPAD_PORT \"Launchpad Pro MK3 LPProMK3 MIDI\""
 				}
 
 			}
