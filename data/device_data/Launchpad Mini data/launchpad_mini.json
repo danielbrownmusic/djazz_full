@@ -1,6 +1,8 @@
 {
     "device" : "Launchpad Mini"
     ,
+    "manual" : "https://leemans.ch/latex/doc_launchpad-programmers-reference.pdf"
+    ,
     "midi_count" : 120 
     ,
     "cc_count" : 0

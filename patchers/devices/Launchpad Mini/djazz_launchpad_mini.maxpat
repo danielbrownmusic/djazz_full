@@ -6060,7 +6060,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -6087,11 +6086,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-70",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 163.0, 414.0, 359.0, 22.0 ],
+					"patching_rect" : [ 163.0, 414.0, 162.0, 49.0 ],
 					"text" : "djazz_launchpad_mappings launchpad_mini launchpad_mini_grid"
 				}
 
