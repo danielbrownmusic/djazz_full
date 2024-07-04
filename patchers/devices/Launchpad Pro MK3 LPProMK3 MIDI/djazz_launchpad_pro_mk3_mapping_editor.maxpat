@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 810.0, 680.0 ],
+		"rect" : [ 127.0, 337.0, 810.0, 680.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,14 +42,13 @@
 				"box" : 				{
 					"fontsize" : 24.0,
 					"id" : "obj-32",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 477.0, 241.0, 290.0, 60.0 ],
+					"patching_rect" : [ 477.0, 241.0, 219.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.0, 0.0, 408.0, 33.0 ],
-					"text" : "INPUT DEVICE MAPPING EDITOR"
+					"presentation_rect" : [ 128.0, 4.0, 218.0, 33.0 ],
+					"text" : "MAPPING EDITOR"
 				}
 
 			}
@@ -857,7 +856,7 @@
 									"destination" : [ "obj-29", 0 ],
 									"source" : [ "obj-7", 1 ],
 									"watchpoint_flags" : 5,
-									"watchpoint_id" : 1
+									"watchpoint_id" : 2
 								}
 
 							}

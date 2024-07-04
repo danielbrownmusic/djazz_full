@@ -10,7 +10,7 @@ post (default_map_file_path_);
 
 var map_rdr_        = require ('djazz_launchpad_dict_reader_map');
 var map_wrtr_       = require ('djazz_launchpad_dict_writer_map');
-var view_wrtr_      = require ('djazz_launchpad_dict_writer_view');
+var view_wrtr_      = require ('djazz_launchpad_dict_writer_view_pro_mk3');
 var ctrl_wrtr_      = require ('djazz_launchpad_dict_writer_ctrl');
 
 var view_dict_      = new Dict ();

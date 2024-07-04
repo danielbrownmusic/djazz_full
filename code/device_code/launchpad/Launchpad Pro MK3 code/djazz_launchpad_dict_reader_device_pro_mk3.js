@@ -67,8 +67,8 @@ exports.color_code = function (color_data_string)
     post ( "hue =", hue, "value =", value, "behavior =", behavior, "\n");
     if (hue == "none")
         return "0 1";
-    var color_code      = d.get(to_key_("colors", hue, value));
-    var behavior_code   = d.get(to_key_("behaviors", behavior));
+    var color_code      = d_.get(to_key_("colors", hue, value));
+    var behavior_code   = d_.get(to_key_("behaviors", behavior));
     return [color_code, behavior_code].join(" ");    
 }
 

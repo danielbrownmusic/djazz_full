@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 122.0, 125.0, 1572.0, 958.0 ],
+		"openrect" : [ 100.0, 100.0, 600.0, 140.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -21,7 +21,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -39,6 +39,89 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 24.0,
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 33.0, 10.0, 291.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 3.0, 291.0, 33.0 ],
+					"text" : "LAUNCHPAD PRO MK3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 420.0, 628.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595186999999999,
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 413.0, 677.0, 234.0, 21.0 ],
+					"text" : "window size 200 200 800 400, window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 413.0, 725.0, 72.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcheR"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1234.0, 291.5, 61.0, 22.0 ],
+					"text" : "hidden $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.549019607843137, 0.572549019607843, 0.541176470588235, 0.67 ],
+					"bordercolor" : [ 0.105882352941176, 0.109803921568627, 0.109803921568627, 1.0 ],
+					"id" : "obj-4",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 919.0, 617.5, 439.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 98.0, 44.5, 488.0, 137.5 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
@@ -70,8 +153,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 970.0, 332.5, 228.0, 22.0 ],
-					"text" : "script sendbox mapping_editor hidden $1"
+					"patching_rect" : [ 970.0, 332.5, 249.0, 22.0 ],
+					"text" : "script sendbox mapping_editor ignoreclick $1"
 				}
 
 			}
@@ -79,7 +162,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -613,7 +696,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1082.25, 237.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 107.0, 89.0, 20.0 ],
+					"presentation_rect" : [ 5.0, 155.0, 89.0, 20.0 ],
 					"text" : "Edit Mapping",
 					"texton" : "Edit Mapping"
 				}
@@ -630,7 +713,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 499.25, 289.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 55.0, 89.0, 22.0 ],
+					"presentation_rect" : [ 5.0, 105.0, 89.0, 22.0 ],
 					"text" : "Save Mapping",
 					"texton" : "Save Mapping"
 				}
@@ -647,7 +730,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 326.25, 289.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 82.0, 89.0, 20.0 ],
+					"presentation_rect" : [ 5.0, 131.0, 89.0, 20.0 ],
 					"text" : "Clear Mapping",
 					"texton" : "Clear Mapping"
 				}
@@ -657,7 +740,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -688,9 +771,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 25.25, 52.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 87.0, 20.0 ],
-					"text" : "connect",
-					"texton" : "disconnect"
+					"presentation_rect" : [ 5.0, 51.0, 87.0, 20.0 ],
+					"text" : "CONNECT",
+					"texton" : "DISCONNECT"
 				}
 
 			}
@@ -705,7 +788,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 620.25, 290.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 30.0, 89.0, 20.0 ],
+					"presentation_rect" : [ 5.0, 81.0, 89.0, 20.0 ],
 					"text" : "Load Mapping",
 					"texton" : "Load Mapping"
 				}
@@ -725,6 +808,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.980392156862745, 0.976470588235294, 0.976470588235294, 1.0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -741,7 +825,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 919.0, 425.5, 439.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 91.0, 0.0, 488.0, 135.0 ],
+					"presentation_rect" : [ 98.0, 47.0, 488.0, 135.0 ],
 					"varname" : "mapping_editor",
 					"viewvisibility" : 1
 				}
@@ -752,6 +836,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -923,7 +1014,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -931,6 +1022,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
+					"order" : 1,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
 					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
@@ -940,6 +1039,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -1006,6 +1112,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
 					"source" : [ "obj-80", 0 ]
 				}
@@ -1037,37 +1150,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "djazz_ask_to_save_gate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/devices",
-				"patcherrelativepath" : "..",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_device_io.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/devices",
-				"patcherrelativepath" : "..",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_launchpad_pro_mk3_mapping_editor.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/devices/Launchpad Pro MK3 LPProMK3 MIDI",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_parameter_info_provider.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/code/parameters",
-				"patcherrelativepath" : "../../../code/parameters",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
