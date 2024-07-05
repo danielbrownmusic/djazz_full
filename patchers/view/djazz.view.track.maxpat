@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 217.0, 179.0, 1828.0, 927.0 ],
+		"rect" : [ 118.0, 480.0, 1401.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,23 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.419607843137255, 0.435294117647059, 0.411764705882353, 1.0 ],
+					"fontname" : "Webdings",
+					"fontsize" : 18.0,
+					"id" : "obj-166",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 701.0, 141.0, 222.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 822.0, -1.0, 28.0, 24.0 ],
+					"text" : "i",
+					"textcolor" : [ 1.0, 0.988235294117647, 0.988235294117647, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-163",
 					"maxclass" : "newobj",
@@ -230,7 +247,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -865,7 +882,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1223,7 +1240,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_max_continuity",
+							"parameter_longname" : "#1_max_continuity",
 							"parameter_shortname" : "score_1_max_continuity",
 							"parameter_type" : 3
 						}
@@ -1270,7 +1287,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 862.590718772552123, 819.499985782170597, 43.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 737.000000059604645, 0.0, 30.0, 22.0 ],
+					"presentation_rect" : [ 727.000000059604645, 0.0, 30.0, 22.0 ],
 					"text" : "MAX",
 					"texton" : "MAX",
 					"textoncolor" : [ 1.0, 0.694117647058824, 0.27843137254902, 1.0 ]
@@ -1311,7 +1328,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 782.224284787045349, 819.499985782170597, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 685.000000059604645, 0.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 685.000000059604645, 0.0, 39.0, 22.0 ]
 				}
 
 			}
@@ -1528,7 +1545,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_reset_pitch",
+							"parameter_longname" : "#1_reset_pitch",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_reset_pitch",
 							"parameter_type" : 2
@@ -1563,7 +1580,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_pitch_down",
+							"parameter_longname" : "#1_pitch_down",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_pitch_down",
 							"parameter_type" : 2
@@ -1598,7 +1615,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_pitch_up",
+							"parameter_longname" : "#1_pitch_up",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_pitch_up",
 							"parameter_type" : 2
@@ -1625,7 +1642,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1671,7 +1688,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2617,7 +2634,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3411,7 +3428,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-31",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4273,7 +4290,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4581,7 +4598,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_loop_8",
+							"parameter_longname" : "#1_loop_8",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_loop_8",
 							"parameter_type" : 2
@@ -4617,7 +4634,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_loop_7",
+							"parameter_longname" : "#1_loop_7",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_loop_7",
 							"parameter_type" : 2
@@ -4653,7 +4670,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_loop_6",
+							"parameter_longname" : "#1_loop_6",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_loop_6",
 							"parameter_type" : 2
@@ -4689,7 +4706,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_loop_5",
+							"parameter_longname" : "#1_loop_5",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_loop_5",
 							"parameter_type" : 2
@@ -4725,7 +4742,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_loop_4",
+							"parameter_longname" : "#1_loop_4",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_loop_4",
 							"parameter_type" : 2
@@ -4761,7 +4778,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_loop_3",
+							"parameter_longname" : "#1_loop_3",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_loop_3",
 							"parameter_type" : 2
@@ -4797,7 +4814,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_loop_2",
+							"parameter_longname" : "#1_loop_2",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_loop_2",
 							"parameter_type" : 2
@@ -4833,7 +4850,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_loop_1",
+							"parameter_longname" : "#1_loop_1",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_loop_1",
 							"parameter_type" : 2
@@ -4869,7 +4886,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_speed_4",
+							"parameter_longname" : "#1_speed_4",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_speed_4",
 							"parameter_type" : 2
@@ -4905,7 +4922,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_speed_3/2",
+							"parameter_longname" : "#1_speed_3/2",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_speed_3/2",
 							"parameter_type" : 2
@@ -4941,7 +4958,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_speed_1/2",
+							"parameter_longname" : "#1_speed_1/2",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_speed_1/2",
 							"parameter_type" : 2
@@ -4977,7 +4994,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_speed_2",
+							"parameter_longname" : "#1_speed_2",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_speed_2",
 							"parameter_type" : 2
@@ -5012,7 +5029,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_improvise",
+							"parameter_longname" : "#1_improvise",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_improvise",
 							"parameter_type" : 2
@@ -5051,7 +5068,7 @@
 					"patching_rect" : [ 459.018706530612974, 839.835593782170463, 20.0, 22.0 ],
 					"pic" : "2448971-200.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 769.0, 1.0, 22.0, 20.0 ]
+					"presentation_rect" : [ 756.0, 1.0, 22.0, 20.0 ]
 				}
 
 			}
@@ -5066,14 +5083,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 481.018706530612974, 839.835593782170463, 43.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 792.0, 0.0, 37.0, 22.0 ],
+					"presentation_rect" : [ 777.0, 0.0, 37.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_pitch_range",
+							"parameter_longname" : "#1_pitch_range",
 							"parameter_shortname" : "score_1_pitch_range",
 							"parameter_type" : 3
 						}
@@ -5102,7 +5119,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_reset_octave",
+							"parameter_longname" : "#1_reset_octave",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_reset_octave",
 							"parameter_type" : 2
@@ -5137,7 +5154,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_octave_down",
+							"parameter_longname" : "#1_octave_down",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_octave_down",
 							"parameter_type" : 2
@@ -5172,7 +5189,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "score_2_octave_up",
+							"parameter_longname" : "#1_octave_up",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "score_1_octave_up",
 							"parameter_type" : 2
@@ -5199,7 +5216,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5293,7 +5310,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5811,6 +5828,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
+					"ignoreclick" : 1,
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -5895,6 +5913,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
+					"ignoreclick" : 1,
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -5910,6 +5929,7 @@
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-68",
+					"ignoreclick" : 1,
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -7367,6 +7387,99 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-14" : [ "#1_speed_2", "score_1_speed_2", 0 ],
+			"obj-149" : [ "#1_reset_pitch", "score_1_reset_pitch", 0 ],
+			"obj-15" : [ "#1_speed_1/2", "score_1_speed_1/2", 0 ],
+			"obj-150" : [ "#1_pitch_down", "score_1_pitch_down", 0 ],
+			"obj-151" : [ "#1_pitch_up", "score_1_pitch_up", 0 ],
+			"obj-17" : [ "#1_speed_3/2", "score_1_speed_3/2", 0 ],
+			"obj-188" : [ "#1_max_continuity", "score_1_max_continuity", 0 ],
+			"obj-19" : [ "#1_speed_4", "score_1_speed_4", 0 ],
+			"obj-20" : [ "#1_loop_1", "score_1_loop_1", 0 ],
+			"obj-22" : [ "score_2_transpose_pitch", "score_1_transpose_pitch", 0 ],
+			"obj-26" : [ "#1_octave_up", "score_1_octave_up", 0 ],
+			"obj-27" : [ "#1_loop_2", "score_1_loop_2", 0 ],
+			"obj-28" : [ "#1_loop_3", "score_1_loop_3", 0 ],
+			"obj-29" : [ "#1_loop_4", "score_1_loop_4", 0 ],
+			"obj-30" : [ "#1_loop_5", "score_1_loop_5", 0 ],
+			"obj-34" : [ "#1_octave_down", "score_1_octave_down", 0 ],
+			"obj-36" : [ "#1_loop_6", "score_1_loop_6", 0 ],
+			"obj-37" : [ "#1_loop_7", "score_1_loop_7", 0 ],
+			"obj-38" : [ "#1_reset_octave", "score_1_reset_octave", 0 ],
+			"obj-39" : [ "#1_loop_8", "score_1_loop_8", 0 ],
+			"obj-58" : [ "#1_improvise", "score_1_improvise", 0 ],
+			"obj-71" : [ "#1_pitch_range", "score_1_pitch_range", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "1142014.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "15838-200.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "2448971-200.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "2650315-200.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "45570-200.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "5057-200.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "55162.png",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"patcherrelativepath" : "../../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.view.beat_clock.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"editing_bgcolor" : [ 0.792156862745098, 0.792156862745098, 0.792156862745098, 1.0 ]
 	}
 

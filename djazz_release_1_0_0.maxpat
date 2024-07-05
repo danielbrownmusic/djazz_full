@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 53.0, 128.0, 1236.0, 965.0 ],
+		"rect" : [ 53.0, 118.0, 1236.0, 965.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -454,7 +454,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -504,8 +503,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1414.123386740684509, 390.783699629325724, 152.0, 22.0 ],
-					"text" : "djazz_launchpad_pro_mk3",
-					"textcolor" : [ 1.0, 1.0, 1.0, 0.980392156862745 ]
+					"text" : "djazz_launchpad_pro_mk3"
 				}
 
 			}
@@ -898,8 +896,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p midi_out",
-					"textcolor" : [ 1.0, 1.0, 1.0, 0.980392156862745 ]
+					"text" : "p midi_out"
 				}
 
 			}
@@ -912,8 +909,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 732.290536516905945, 338.20374480013561, 186.366658353805633, 22.0 ],
-					"text" : "djazz.song_data_loader",
-					"textcolor" : [ 1.0, 1.0, 1.0, 0.980392156862745 ]
+					"text" : "djazz.song_data_loader"
 				}
 
 			}
@@ -927,7 +923,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 599.565542751551675, 500.70374480013561, 152.340269118548122, 22.0 ],
 					"text" : "djazz.view_control",
-					"textcolor" : [ 1.0, 1.0, 1.0, 0.980392156862745 ],
 					"varname" : "patcher"
 				}
 
@@ -956,7 +951,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 732.905811870099797, 667.695565664752849, 96.0, 22.0 ],
 					"text" : "djazz_udp_send",
-					"textcolor" : [ 1.0, 1.0, 1.0, 0.980392156862745 ],
 					"varname" : "udp_send[1]"
 				}
 
@@ -1010,8 +1004,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1174.061693370342255, 390.783699629325724, 127.0, 22.0 ],
-					"text" : "djazz_launchpad_mini",
-					"textcolor" : [ 1.0, 1.0, 1.0, 0.980392156862745 ]
+					"text" : "djazz_launchpad_mini"
 				}
 
 			}
@@ -1029,8 +1022,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js djazz_parameter_handler.js 2",
-					"textcolor" : [ 1.0, 1.0, 1.0, 0.980392156862745 ]
+					"text" : "js djazz_parameter_handler.js 2"
 				}
 
 			}
@@ -1044,7 +1036,6 @@
 					"outlettype" : [ "signal", "signal", "", "" ],
 					"patching_rect" : [ 68.66556769013448, 434.70374480013561, 815.349962592125735, 22.0 ],
 					"text" : "djazz",
-					"textcolor" : [ 1.0, 1.0, 1.0, 0.980392156862745 ],
 					"varname" : "model"
 				}
 
@@ -3135,7 +3126,6 @@
 				"multi" : 0
 			}
  ],
-		"default_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 		"elementcolor" : [ 0.258823529411765, 0.254901960784314, 0.254901960784314, 1.0 ],
 		"accentcolor" : [ 0.627450980392157, 0.498039215686275, 0.211764705882353, 1.0 ],
 		"textcolor" : [ 0.0, 0.0, 0.0, 0.980392156862745 ],
